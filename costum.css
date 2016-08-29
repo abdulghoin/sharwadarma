@@ -1,0 +1,167 @@
+body {
+	position: relative;
+}
+#Home {
+	padding-top: 95px;
+}
+
+.bg-color {
+	background: #eaeaea;
+	padding: 90px 0;
+	color: #8a8683;
+}
+.bg-white {
+	background: #fff;
+	background-size: cover;
+	color: #8a8683;
+	padding: 90px 0;
+}
+p {
+	font-size: 18px;
+}
+h2 {
+	padding-bottom: 20px;
+}
+
+/* Style Navbar */
+.navbar {
+	z-index: 9999;
+	margin: 0;
+}
+.navbar-default {
+	height: 95px;
+	background: #fff;
+	border: none;
+}
+.navbar-brand {
+	width: 235px;
+	height: 95px;
+}
+nav ul {
+	padding-top: 25px;
+}
+.navbar-nav li.active a {
+	font-weight: bold;
+	color: #1abc9c !important;
+	background: #fff!important;
+}
+.navbar-nav li a:hover {
+	color: #1abc9c !important;
+}
+.nav {
+	background: #fff !important;
+	margin-top: 0;
+}
+
+/* Style Home */
+div.container-fluid {
+	background: url(images/bg.jpg) no-repeat center fixed;
+	background-size: cover;
+	padding: 800px 0 250px;
+	margin-top: 95px;
+	color: #fff;
+}
+div.container-fluid h1 {
+	font-size: 60px;
+}
+.btn-info {
+	background-color: #1abc9c;
+	border-color: #1abc9c;
+}
+.btn-info:hover {
+	background-color: #34495e;
+	border-color: #34495e;
+}
+.btn-link {
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fff;
+}
+.btn-link:hover {
+	color: #666;
+	text-decoration: none;
+	border: 1px solid #fff;
+	background: #fff;
+}
+
+/* Style Services */
+.logo {
+	font-size: 80px;
+}
+.logo:hover {
+	color: #1abc9c;
+}
+
+/* Style About */
+#About {
+	background: url(images/bg-featured.jpg) no-repeat center fixed;
+	background-size: cover;
+	color: #fff;
+	padding: 150px 0;
+}
+.row {
+	margin-top: 80px;
+}
+#About.row.col-md-6 p {
+	padding-bottom: 30px;
+}
+
+/* Style Team */
+.default {
+	-moz-opacity: 0.0;
+	filter:alpha(opacity=0);
+	opacity: 0.0;
+}
+.row {
+	padding: 30px 0 0 0;
+	margin-top: 0;
+}
+img.portfolio {
+	border-radius: 5px;
+}
+.thumbnail {
+	padding: 0 0 20px 0;
+	min-height: 500px;
+}
+.thumbnail img {
+	width: 100%;
+}
+.bg-portfolio {
+	background: url(images/bg-testimonial.jpg) no-repeat center fixed;
+	background-size: cover;
+	color: #fff;
+	padding: 90px 0;
+}
+.blog {
+	padding: 10px 15px;
+}
+.blog a {
+	color: #8a8683;
+}
+.blog a:hover {
+	text-decoration: none;
+	color: #1abc9c;
+}
+.bg-blog {
+	background: url(images/bg-subscribe.jpg) no-repeat center fixed;
+	background-size: cover;
+	padding: 120px 0;
+	color: #fff;
+}
+#Blog #email {
+	background: rgba(255, 255, 255, 0.2);
+	height: 45px;
+	color: #fff;
+	border: none;
+	margin-top: 30px;
+}
+.form-control{
+	margin-bottom: 20px;
+}
+#Portfolio .col-sm-6 {
+	margin-bottom: 25px;
+}
+#Portfolio .col-xs-12 img {
+	text-align: center;
+	display: inline-block;
+}
